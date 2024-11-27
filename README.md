@@ -28,6 +28,8 @@ To install the latest version of CLI using this git repository and pip, run the 
 
 `pip3 install git+https://github.com/aws-greengrass/aws-greengrass-gdk-cli.git@v1.6.2`
 
+This installs the gdk executable into your python environment bin. You'll want to add it to your path, or reference the executable absolutely in the commands below.
+
 Run `gdk --help` to check if the cli tool is successfully installed.
 
 #### 2. Configure AWS credentials
